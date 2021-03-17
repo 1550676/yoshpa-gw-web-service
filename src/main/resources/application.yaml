@@ -1,0 +1,23 @@
+server:
+  port: 8087
+  servlet:
+    context-path: /
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+
+app:
+  auth-type: Bearer
+  jwt:
+    secret-key: topsecretkey123rieubherotuh3498th398gh395g8h598gh4g8gidufghdifughi43gg4334t3h4gi34uhgi35uhgi35ughi45ugho98dhf98bhg
+  service-email: data-service@gmail.com
+  service-password: 100
+
+  login-registration-service:
+    host: https://yoshpa-registration-login.herokuapp.com
+#    host: http://localhost:8186
+  shop-service:
+    host: https://yoshpa-shop-data-service.herokuapp.com
+  customer-service:
+    host: https://yoshpa-customer-data-service.herokuapp.com
